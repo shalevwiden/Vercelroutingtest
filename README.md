@@ -5,3 +5,8 @@ I am using subdirectories to attempt to combine a static website across multiple
 ---
 
 For the paths, in /subrepo-two/(.\*) the (.\*) is a placeholder for the rest of the link thats there, which is then reflected by the $1.
+
+---
+
+Well this actually worked, pretty nice.
+See it here: https://vercelroutingtest.vercel.app/
