@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/subrepo-one/(.*)",
+      "destination": "https://subrepo-one.vercel.app/$1"
+    },
+
+    {
+      "source": "/subrepo-two/(.*)",
+      "destination": "https://subrepo-two.vercel.app/$1"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
