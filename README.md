@@ -4,4 +4,4 @@ I am using subdirectories to attempt to combine a static website across multiple
 
 ---
 
-For the paths, in /subrepo-two/(._) the (._) is a placeholder for the rest of the link thats there, which is then reflected by the $1.
+For the paths, in /subrepo-two/(.\*) the (.\*) is a placeholder for the rest of the link thats there, which is then reflected by the $1.
