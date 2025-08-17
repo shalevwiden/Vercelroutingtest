@@ -1,13 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/subrepo-one/(.*)",
-      "destination": "https://subrepo-one.vercel.app/$1"
+      "source": "/subrepo-one/:path*",
+      "destination": "https://subrepo-one.vercel.app/:path*"
     },
-
     {
-      "source": "/subrepo-two/(.*)",
-      "destination": "https://subrepo-two.vercel.app/$1"
+      "source": "/subrepo-two/:path*",
+      "destination": "https://subrepo-two.vercel.app/:path*"
     }
   ],
   "cleanUrls": true,
